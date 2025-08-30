@@ -1,0 +1,50 @@
+# Robots.txt for Bethel Community Presbyterian Church
+# https://bethelcommunitysl.org
+
+User-agent: *
+Allow: /
+
+# Allow all pages
+Allow: /pages/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Disallow test pages in production
+Disallow: /responsive-test.html
+Disallow: /test/
+Disallow: /*.pdf$
+
+# Allow common search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://bethelcommunitysl.org/sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
+
+# Additional directives
+Host: bethelcommunitysl.org

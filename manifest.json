@@ -1,0 +1,76 @@
+{
+  "name": "Bethel Community Presbyterian Church",
+  "short_name": "Bethel Community",
+  "description": "A progressive, inclusive Christian community in San Leandro committed to social justice, spiritual growth, and welcoming all people.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#8b6914",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/apple-touch-icon.png",
+      "sizes": "180x180", 
+      "type": "image/png"
+    }
+  ],
+  "categories": ["religion", "community", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Worship Services",
+      "short_name": "Gather",
+      "description": "Join us for Sunday worship and midweek gatherings",
+      "url": "/pages/gather.html",
+      "icons": [
+        {
+          "src": "assets/images/gather-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our church community",
+      "url": "/pages/contact.html",
+      "icons": [
+        {
+          "src": "assets/images/contact-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Give Online",
+      "short_name": "Give",
+      "description": "Support our ministry through online giving",
+      "url": "/pages/give.html",
+      "icons": [
+        {
+          "src": "assets/images/give-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
